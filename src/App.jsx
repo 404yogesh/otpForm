@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import OtpVerfication from './components/Otpverfication'
+import OtpVerfication from './components/OtpVerfication'
 import './App.css'
 
 function App() {
