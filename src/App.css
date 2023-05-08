@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Comme', sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    height: auto;
+    width: auto;
+    margin: 100px;
+    color: rgb(17, 17, 17);
+    /* border: 1px solid #030303; */
+    box-shadow: 0px 0px 5px grey;
+    
+
+}
+
+.form{
+    /* border: 1px solid #030303;
+    border-radius: 5px; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+header{
+    /* border: 2px solid grey; */
+    width: 100%;
+    text-align: center;
+    /* border-width: 0 0 1px; */
+    box-shadow: 0px 1px lightgray;
+    padding: 25px 0 20px 0 ;
+    font-size: 3em;
+}
+
+.second_header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: darkgray;
+    font-size: 2em;
+    height: 10vh;
+}
+
+
+
+
+.link_grp{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+ 
+    margin-top: 30px;
+    /* align-items: center; */
+    
+}
+
+span{
+    color: rgb(98, 98, 237); 
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+span:hover{
+    color: blue; 
+}
+
+button{
+    margin:30px 0 20px 0;
+    padding: 10px;
+    width: 20vw;
+    font-size: 1.3em;
+    border: 1px;
+    border-radius:50px;    
+    background-color: rgb(115, 191, 115);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:hsl(120, 35%, 48%);
+}
+
+
+@media (max-width:700px){
+    
+    .main{
+        margin: 70px;
+    }
+    
+    header{
+        padding: 25px 0 20px 0 ;
+        font-size: 1.5em;
+    }
+
+    .second_header {
+        font-size: .8em;
+        height: 10vh;
+    }
+
+    span {
+        font-size: .7em;
+    }
+
+    button{
+        width: 30vw;
+        font-size: .7em;   
+    }
+}
+
+@media (700px<=width<=1000px){
+    
+    .main{
+        margin: 70px;
+    }
+
+    header{
+      
+        padding: 25px 0 20px 0 ;
+        font-size: 2.5em;
+    }
+
+    .second_header {
+        font-size: 1.3em;
+        height: 10vh;
+    }
+
+    span {
+        font-size: 1em;
+    }
+
+    button{
+        font-size: 1.1em;   
+    }
+}
